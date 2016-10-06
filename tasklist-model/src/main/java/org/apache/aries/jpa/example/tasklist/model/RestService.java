@@ -13,14 +13,9 @@ import pl.orange.isep.model.service.Service;
 
 @Produces(MediaType.APPLICATION_JSON)
 public interface RestService {
-//    void deleteTask(Integer id);
-//    Collection<Config> getTasks();
-//    Config getService(Integer id);
-//	Collection<Config> getServices();
-//	Collection<Service> getServices1();
 	
 	    @GET
-	    @Path("/xxx")
+	    @Path("/test")
 	    public List<Service> getAll();
 	     
 
