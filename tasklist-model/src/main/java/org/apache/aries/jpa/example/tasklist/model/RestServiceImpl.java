@@ -17,10 +17,7 @@ public class RestServiceImpl implements RestService {
 	
 	  @Override
 		public List<Service> getAll() {
-
 	    			List<Service> resultList = em.createQuery("select s from Service s", Service.class).getResultList();
-
 	    			return resultList;
 		}
-
 }
