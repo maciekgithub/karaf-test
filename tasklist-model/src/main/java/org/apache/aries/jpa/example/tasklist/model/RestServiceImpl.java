@@ -5,9 +5,18 @@ import java.util.List;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import pl.orange.isep.model.service.Service;
-
+//@Component
 public class RestServiceImpl implements RestService {
+// 	  private JpaTemplate jpa;
 
+	/*
+	* jpa is never set - is null
+	*/
+// 	   @Reference(target = "(osgi.unit.name=tasklist)")
+//         public void setJpaTemplate(JpaTemplate jpa) {
+//          this.jpa = jpa;
+//         }
+	
 
 	  @PersistenceContext(unitName = "tasklist")
 	  EntityManager em;
