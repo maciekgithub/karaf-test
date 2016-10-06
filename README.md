@@ -1,5 +1,5 @@
 Configuration:
-'''
+{code}
 Karaf 4.0.7 with Eclipselink:
 330 | Active | 80 | 3.2.0.v201302191141 | EclipseLink ANTLR
 331 | Active | 80 | 5.0.1.v201405080102 | EclipseLink ASM
@@ -22,7 +22,7 @@ Distributor ID: Ubuntu
 Description: Ubuntu 14.04.4 LTS
 Release: 14.04
 Codename: trusty
-'''
+{code}
 
 
 Exception:
