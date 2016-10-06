@@ -4,9 +4,6 @@ import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
-
-import org.apache.aries.jpa.example.tasklist.ds.impl.TaskService;
-
 import pl.orange.isep.model.service.Service;
 
 public class RestServiceImpl implements RestService {
