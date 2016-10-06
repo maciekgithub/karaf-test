@@ -1,5 +1,5 @@
 Configuration:
-{code:title=BaseParameter.java|borderStyle=solid}
+```
 Karaf 4.0.7 with Eclipselink:
 330 | Active | 80 | 3.2.0.v201302191141 | EclipseLink ANTLR
 331 | Active | 80 | 5.0.1.v201405080102 | EclipseLink ASM
@@ -22,11 +22,11 @@ Distributor ID: Ubuntu
 Description: Ubuntu 14.04.4 LTS
 Release: 14.04
 Codename: trusty
-{code}
+```
 
 
 Exception:
-'''
+```
 2016-10-06 20:05:54,583 | ERROR | nsole user karaf | BlueprintContainerImpl           | 12 - org.apache.aries.blueprint.core - 1.6.2 | Unable to start blueprint container for bundle org.apach
 e.aries.jpa.example.tasklist.model/3.0.0.SNAPSHOT
 java.lang.IllegalArgumentException: Unknown namespace for jpa: http://cxf.apache.org/schemas/configuration/cxf-beans.xsd
@@ -45,4 +45,4 @@ t.core:1.6.2]
         at org.apache.xerces.jaxp.validation.XMLSchemaFactory.newSchema(Unknown Source)[:]
         at org.apache.aries.blueprint.namespace.NamespaceHandlerRegistryImpl$NamespaceHandlerSetImpl.createSchema(NamespaceHandlerRegistryImpl.java:641)[12:org.apache.aries.blueprint.core:1.6.2]
         at org.apache.aries.blueprint.namespace.NamespaceHandlerRegistryImpl$NamespaceHandlerSet
-'''
+```
