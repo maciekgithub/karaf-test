@@ -1,0 +1,6 @@
+-dsannotations: *
+Import-Package: \
+*
+Export-Package: org.apache.aries.jpa.example.tasklist.model
+Bundle-Blueprint: blueprint.xml
+Include-Resource: blueprint.xml
