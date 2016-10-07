@@ -12,11 +12,8 @@ import pl.orange.isep.model.service.Service;
 
 
 @Produces(MediaType.APPLICATION_JSON)
-public interface RestService {
-	
+public interface RestService {	
 	    @GET
 	    @Path("/test")
-	    public List<Service> getAll();
-	     
-
+	    public List<Service> getAll();     
 }
